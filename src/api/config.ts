@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'https://jlfv446h-5000.inc1.devtunnels.ms/'; // Replace with your backend URL
-
+const API_URL = 'https://nexusstore-backend-25l4.onrender.com/'; // Replace with your backend URL
+// https://jlfv446h-5000.inc1.devtunnels.ms/
 const api = axios.create({
   baseURL: API_URL,
   headers: {
