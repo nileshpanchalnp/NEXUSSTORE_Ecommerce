@@ -65,7 +65,7 @@ export const OrderComplete: React.FC = () => {
         doc.text("SOLD BY:", 14, 35);
         
         doc.setFontSize(10);
-        doc.text("NEXUS STORE PVT LTD", 14, 42);
+        doc.text("AURA STORE PVT LTD", 14, 42);
         
         doc.setFont("helvetica", "normal");
         doc.setTextColor(greyColor);
@@ -203,7 +203,7 @@ export const OrderComplete: React.FC = () => {
         doc.setFontSize(8);
         doc.setTextColor(150);
         doc.setFont("helvetica", "italic");
-        doc.text("Thank you for shopping with NEXUS STORE!", pageWidth / 2, footerY, { align: 'center' });
+        doc.text("Thank you for shopping with AURA STORE!", pageWidth / 2, footerY, { align: 'center' });
         doc.text("This is a computer-generated invoice and does not require a physical signature.", pageWidth / 2, footerY + 5, { align: 'center' });
 
         doc.save(`Invoice_${orderData.orderId || orderId}.pdf`);

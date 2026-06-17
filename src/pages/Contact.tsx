@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
           <h2 className="text-3xl font-bold mb-8">Get In Touch</h2>
           {[
             { icon: <Phone />, title: "Call Us", val: "+1 234 567 890" },
-            { icon: <Mail />, title: "Email Us", val: "support@nexusstore.com" },
+            { icon: <Mail />, title: "Email Us", val: "support@AURA.com" },
             { icon: <MapPin />, title: "Visit Us", val: "123 Commerce St, NY 10001" }
           ].map((item, i) => (
             <div key={i} className="flex items-center gap-5 p-6 bg-white border rounded-2xl shadow-sm">

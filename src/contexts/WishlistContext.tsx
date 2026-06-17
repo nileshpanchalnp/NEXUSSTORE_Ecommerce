@@ -14,12 +14,12 @@ const WishlistContext = createContext<WishlistContextType | undefined>(undefined
 export const WishlistProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     // Initialize from localStorage to persist after refresh
     const [wishlist, setWishlist] = useState<Product[]>(() => {
-        const saved = localStorage.getItem('nexus_wishlist');
+        const saved = localStorage.getItem('AURA_wishlist');
         return saved ? JSON.parse(saved) : [];
     });
 
     useEffect(() => {
-        localStorage.setItem('nexus_wishlist', JSON.stringify(wishlist));
+        localStorage.setItem('AURA_wishlist', JSON.stringify(wishlist));
     }, [wishlist]);
 
     const addToWishlist = (product: Product) => {

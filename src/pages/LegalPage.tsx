@@ -7,7 +7,7 @@ export const LegalPage: React.FC<{ title: string }> = ({ title }) => {
       <div className="prose prose-blue text-gray-600 space-y-6">
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">1. General Overview</h2>
-          <p>Welcome to NexusStore. These guidelines govern your use of our platform. By accessing our site, you agree to comply with our standards of service and data protection policies.</p>
+          <p>Welcome to AURA. These guidelines govern your use of our platform. By accessing our site, you agree to comply with our standards of service and data protection policies.</p>
         </section>
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">2. Data Collection</h2>

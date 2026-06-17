@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
         <footer className="bg-gray-900 text-gray-300 pt-16 pb-8">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                 <div className="space-y-4">
-                    <h3 className="text-2xl font-black text-white">NEXUS<span className="text-[#0d6efd]">STORE</span></h3>
+                    <h3 className="text-2xl font-black text-white">AURA<span className="text-[#0d6efd]">STORE</span></h3>
                     <p className="text-sm leading-relaxed">Your one-stop destination for premium electronics and lifestyle accessories. Quality guaranteed.</p>
                     <div className="flex gap-4">
                         <Facebook size={20} className="hover:text-[#0d6efd] cursor-pointer" />
@@ -45,7 +45,7 @@ export const Footer: React.FC = () => {
                 </div>
             </div>
             <div className="container mx-auto px-4 pt-8 border-t border-gray-800 text-center text-xs">
-                © 2026 NexusStore. All Rights Reserved. Built with React & Tailwind.
+                © 2026 AURA. All Rights Reserved. 
             </div>
         </footer>
     );

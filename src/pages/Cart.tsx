@@ -84,7 +84,7 @@ export const Cart: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-sm">Free In-Store Pickup</h4>
-                  <p className="text-xs text-gray-500 mt-1">Ready within 2 hours at your nearest Nexus store.</p>
+                  <p className="text-xs text-gray-500 mt-1">Ready within 2 hours at your nearest AURA store.</p>
                 </div>
               </div>
               <div className="p-6 border border-dashed border-gray-300 rounded-xl flex items-center gap-4">

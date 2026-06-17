@@ -6,7 +6,7 @@ export const AboutUs: React.FC = () => {
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-black text-gray-900 mb-6">Our Story</h1>
         <p className="text-lg text-gray-600 leading-relaxed mb-8">
-          Founded in 2026, NexusStore began with a simple mission: to bridge the gap between high-end 
+          Founded in 2026, AURA began with a simple mission: to bridge the gap between high-end 
           technology and everyday consumers. We believe that innovation should be accessible, 
           reliable, and beautifully designed.
         </p>

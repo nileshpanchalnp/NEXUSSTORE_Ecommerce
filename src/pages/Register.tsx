@@ -53,7 +53,7 @@ console.log('Registration response:', response);
       <div className="max-w-md w-full bg-white rounded-2xl shadow-card p-8 md:p-12">
         <div className="text-center mb-10">
           <h1 className="text-3xl font-bold text-gray-900">Create Account</h1>
-          <p className="text-gray-500 mt-2">Join the NexusStore community today</p>
+          <p className="text-gray-500 mt-2">Join the AURA community today</p>
         </div>
 
         {/* Error Message Display */}

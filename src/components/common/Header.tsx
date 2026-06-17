@@ -54,7 +54,7 @@ export const Header: React.FC = () => {
 
         {/* Logo */}
         <Link to="/" className="text-2xl font-black tracking-tighter text-gray-900 shrink-0">
-          Nilesh<span className="text-[#0d6efd]">STORE</span>
+          AURA<span className="text-[#0d6efd]">STORE</span>
         </Link>
 
         {/* Search Bar - Hidden on mobile, flexible on Desktop */}
